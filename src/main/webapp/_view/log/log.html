@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>日志查看</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      min-height: 100%;
+    }
+    
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      padding: 10px 20px;
+      background-color: #2b2b2b;
+      font-family: "Source Code Pro", Consolas, Monaco, "Courier New", "Microsoft Yahei", monospace, serif;
+      font-size: 16px;
+      color: #a8b6c5;
+    }
+  </style>
+</head>
+<body>
+<pre>#(log)</pre>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+<script>
+  $(function(){
+    var h = $(document).height()-$(window).height();
+      $(document).scrollTop(h);
+  });
+</script>
+</body>
+</html>
