@@ -1,0 +1,15 @@
+# errno=errmsg
+
+-1=Server error
+-2=Authentication failed
+-3=Parameter error
+-4=Invalid code
+
+403=You do not have this permission
+
+1000=wxa_session Header is blank
+1001=wxa_session sessionJson is blank
+1002=sessionKey is blank
+1003=UserInfo check fail
+1004=decrypt error
+1005=Upload pictures shall not be greater than 10M

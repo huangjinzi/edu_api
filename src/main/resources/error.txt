@@ -1,0 +1,16 @@
+# errno=errmsg
+
+-1=服务器异常
+-2=sessionId无效
+-3=参数错误
+-4=code无效
+
+403=没有该权限
+
+
+1000=wxa_session Header 为空
+1001=wxa_session sessionJson 为空
+1002=sessionKey 为空
+1003=用户信息检查错误
+1004=解密失败
+1005=上传图片不得大于10M
